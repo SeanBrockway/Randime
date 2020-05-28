@@ -4,10 +4,14 @@ import './Components/css/bootstrap.min.css';
 import './Components/css/style.css';
 import './Components/css/fonts.css';
 import SectionHeader from './Components/SectionHeader.js'
+import SectionMainBody from './Components/SectionMainBody';
 
 function App() {
 	return (
-		<SectionHeader></SectionHeader>
+		<React.Fragment>
+			<SectionHeader></SectionHeader>
+			<SectionMainBody></SectionMainBody>
+		</React.Fragment>
 	);
 }
 
